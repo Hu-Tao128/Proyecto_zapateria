@@ -1,8 +1,8 @@
 import java.lang.reflect.Array; //importar clase de arreglos
 import java.util.Scanner; //importar clase de scanner
-import javax.swing.JOptionPane; //importar clase de ventanas flotantes, cajas de mensaje
 
-//import funciones;
+import javax.swing.*;
+import javax.swing.JOptionPane; //importar clase de ventanas flotantes, cajas de mensaje
 public class zapateria {
 
     public static void main(String[] args) {
@@ -16,6 +16,10 @@ public class zapateria {
         // int numerosArray = 0;
         Double total = 0.0;
         
+        public ImageIcon icono = new ImageIcon("IMG_0523.jpg");
+        JOptionPane.showMessageDialog(null, "Foto de Hu tao", "Hu Tao", JOptionPane.INFORMATION_MESSAGE, icono);
+
+        funciones();
 
         JOptionPane.showMessageDialog(null, "Soy una ventana emergente");
 
@@ -183,6 +187,13 @@ public class zapateria {
             }    
         }while (opcion!=5);
         //do while se refiere a repetir mientras la condicion se cumpla
+        
+    }
+
+    private static void funciones() {
+        // soy una funcion
+        //JOptionPane.showMessageDialog(null,"mensaje", "titulo", joptionpane.icono);
+        JOptionPane.showMessageDialog(null,"No se acptan peruanos", "Advertencia", JOptionPane.INFORMATION_MESSAGE);
         
     }
 }
