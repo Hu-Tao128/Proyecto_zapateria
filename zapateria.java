@@ -1,9 +1,8 @@
-import java.lang.reflect.Array;
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+import java.lang.reflect.Array; //importar clase de arreglos
+import java.util.Scanner; //importar clase de scanner
+import javax.swing.JOptionPane; //importar clase de ventanas flotantes, cajas de mensaje
 
-import javax.swing.JOptionPane;
-//import zapateria.funciones;
+//import funciones;
 public class zapateria {
 
     public static void main(String[] args) {
@@ -27,7 +26,7 @@ public class zapateria {
             System.out.println("1) Ver catalogo");
             System.out.println("2) Conoce tu talla");
             System.out.println("3) Canjear un codigo");
-            System.out.println("4) Kathya<3");
+            System.out.println("4) Dedicado a mi novia hermosa Kathya<3");
             System.out.println("5) Salir");
             
             int contador = 0;
@@ -51,8 +50,8 @@ public class zapateria {
             switch (opcion) {
                 case 1:
                     System.out.println("A continuacion se muestras las suiguientes categorias:");
-                    System.out.println("1)Nina");
-                    System.out.println("2)Nino");
+                    System.out.println("1)Niña");
+                    System.out.println("2)Niño");
                     System.out.println("3)Mujer");
                     System.out.println("4)Hombre");
                     System.out.println("5)Ver todos los Productos");
@@ -61,14 +60,14 @@ public class zapateria {
     
                     switch (opcion) {
                         case 1:
-                            System.out.println("Aqui estan los productos de Nina");
+                            System.out.println("Aqui estan los productos de Niña");
                             for (int inicio = 0; inicio < 5; inicio++){
                                 System.out.println("No.Articulo: " + (inicio+1) + ".-" + Products[inicio] + " Precio: " + precioProduct[inicio]);
                             }
                             
                         break;
                         case 2:
-                            System.out.println("Aqui estan los productos de Nino");
+                            System.out.println("Aqui estan los productos de Niño");
                              for (int inicio = 5; inicio < 9; inicio++){
                                 System.out.println("No.Articulo: " + (inicio+1) + ".-" + Products[inicio] + " Precio: " + precioProduct[inicio]);
                             }
