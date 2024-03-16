@@ -1,6 +1,9 @@
 import java.lang.reflect.Array;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
+import javax.swing.JOptionPane;
+//import zapateria.funciones;
 public class zapateria {
 
     public static void main(String[] args) {
@@ -15,6 +18,7 @@ public class zapateria {
         Double total = 0.0;
         
 
+        JOptionPane.showMessageDialog(null, "Soy una ventana emergente");
 
         do{
 
