@@ -16,10 +16,6 @@ public class zapateria {
         // int numerosArray = 0;
         Double total = 0.0;
         
-        public ImageIcon icono = new ImageIcon("IMG_0523.jpg");
-        JOptionPane.showMessageDialog(null, "Foto de Hu tao", "Hu Tao", JOptionPane.INFORMATION_MESSAGE, icono);
-
-        funciones();
 
         JOptionPane.showMessageDialog(null, "Soy una ventana emergente");
 
@@ -190,6 +186,7 @@ public class zapateria {
         
     }
 
+    //asi se escribe una funcion
     private static void funciones() {
         // soy una funcion
         //JOptionPane.showMessageDialog(null,"mensaje", "titulo", joptionpane.icono);
