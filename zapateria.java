@@ -13,7 +13,6 @@ public class zapateria {
         int opcion = 0;
         String Opt = "";
         Double codigo = 0.0;
-        // int numerosArray = 0;
         Double total = 0.0;
         
 
